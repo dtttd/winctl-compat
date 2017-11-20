@@ -1,3 +1,4 @@
+const { getActiveWindow } = require("active-window");
 const Window = require("./window-phony");
 
 const winctl = {};
@@ -184,5 +185,6 @@ class WindowEventsEmitter extends EventEmitter {
 }
 
 winctl.Events = new WindowEventsEmitter();
+winctl.Window = Window; // original winctl does not export Window
 
 module.exports = winctl;
