@@ -1,6 +1,6 @@
 {
   "name": "@digitalattitude/winctl-compat",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,6 @@
   "license": "ISC",
   "description": "",
   "peerDependencies": {
-    "@digitalattitude/winctl": "^1.1.0"
+    "@digitalattitude/winctl": "^1.1.2"
   }
 }
